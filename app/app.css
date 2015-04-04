@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);
+
+
+.card {
+  background-color: #f4f4f4;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+  vertical-align: middle;
+  cursor:pointer;
+}
+
+.card-header {
+  overflow: hidden;
+  width: 100%;
+  max-height: 200px;
+}
+
+.card-header img{
+  width: 100%;
+}
+
+.card-content {
+  width: 85%;
+  margin: 10px auto;
+  padding-bottom:5px;
+  min-height:150px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #303F9F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content h4 {
+  font-size: 14px;
+  margin-top: 0;
+  color: #FF5252;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content p {
+  color: #727272;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.card-footer {
+  border-top: solid 1px #B6B6B6;
+  padding: 5px;
+}
+
+.card-footer ul {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.card-footer ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+}
+
+.card-footer ul li i {
+  font-size: 2em;
+  color: #3F51B5;
+}
+
+/* Animations */
+
+
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight 1s;
+          animation-name: fadeInRight;
+
+}/*
+.card-container.ng-leave{
+    -webkit-animation: fadeInRight 1s;
+          animation: fadeInRight 1s;
+          }
+
+          .card-container.ng-enter{
+    -webkit-animation: fadeInRight 1s;
+          animation: fadeInRight 1s;
+
+          }
+            .card-container.ng-enter-stagger{ 
+/* 200ms will be applied between each sucessive enter operation */ 
+  /*-webkit-transition-delay:0.2s;
+  transition-delay:0.2s;
+
+  /* this is here to avoid accidental CSS inheritance */
+/*  -webkit-transition-duration:0;
+  transition-duration:0;
+            }
+
+          .score-row.ng-enter{
+              -webkit-animation: fadeInRight 1s;
+          animation: fadeInRight 1s;
+          }
+
+           .card-container.ng-enter,
+ .card-container.ng-leave,
+.repeat-animation.ng-move {
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+}
+
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+}
+*/
