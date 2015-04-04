@@ -23,7 +23,7 @@ angular
     		})
     		.state('about', {
 		      url: "/about",
-		      templateUrl:"about/about.html"
+		      template:"Bienvenue sur le site MovieMash"
     		})
     		.state('home.play',{
     			url:"/play",

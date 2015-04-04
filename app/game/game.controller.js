@@ -23,12 +23,11 @@
 				  });
 
 			vm.prepareOpponents = function(){
-                var maxRange = vm.movies.length;
-				var idMovie1=Math.floor((Math.random() * maxRange));
-				var idMovie2= Math.floor((Math.random() * maxRange));
+				var idMovie1=Math.floor((Math.random() * 10));
+				var idMovie2= Math.floor((Math.random() * 10));
 				while(idMovie2 == idMovie1){
-					idMovie1=Math.floor((Math.random() * maxRange));
-					idMovie2= Math.floor((Math.random() * maxRange));
+					idMovie1=Math.floor((Math.random() * 10));
+					idMovie2= Math.floor((Math.random() * 10));
 				}
 				vm.movie1= vm.movies[idMovie1];
 				vm.movie2= vm.movies[idMovie2];

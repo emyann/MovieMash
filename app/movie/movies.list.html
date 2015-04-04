@@ -1,6 +1,6 @@
 <div class="row">
-	<h1 class="col-sm-8 col-xs-8">Most popular movies</h1>
-	<a class="col-xs-3 col-sm-3 btn btn-success h1" ui-sref="home.play">Start a battle !</a>
+	<h1 class="col-sm-8 col-xs-8">Les films les mieux notés</h1>
+	<a class="col-xs-3 col-sm-3 btn btn-success h1" ui-sref="home.play">Démarrer une bataille</a>
 </div>
 <div class="row">
 		<div class="col-sm-3 col-xs-6 card-container animated" ng-repeat='movie in movieCtlr.movies | filter:movieCtrl.filterMovie'>
@@ -10,8 +10,8 @@
 		  </div>
 		  <div class="card-content">
 		    <h3>{{movie.title}}</h3>
-		    <h4>Vote: {{movie.vote_average}}</h4>
-		    <p>Release date: {{ movie.release_date|date:"MM/dd/yyyy"}}</p>
+		    <h4>Note: {{movie.vote_average}}</h4>
+		    <p>Date de sortie: {{ movie.release_date|date:"EEEE"}}</p>
 		  </div>
 		</div>
 		</div>
