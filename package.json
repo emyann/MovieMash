@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "MovieMash",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "A movie game sample with AngularJs and Firebase",
+  "repository": "https://github.com/emyann/MovieMash",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
