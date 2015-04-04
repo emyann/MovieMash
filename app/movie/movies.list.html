@@ -1,0 +1,19 @@
+<div class="row">
+	<h1 class="col-sm-8 col-xs-8">Les films les mieux notés</h1>
+	<a class="col-xs-3 col-sm-3 btn btn-success h1" ui-sref="home.play">Démarrer une bataille</a>
+</div>
+<div class="row">
+		<div class="col-sm-3 col-xs-6 card-container animated" ng-repeat='movie in movieCtlr.movies | filter:movieCtrl.filterMovie'>
+				<div class="card" >
+		  <div class="card-header">
+		    <img ng-src='https://image.tmdb.org/t/p/w342/{{movie.poster_path}}'/>
+		  </div>
+		  <div class="card-content">
+		    <h3>{{movie.title}}</h3>
+		    <h4>Note: {{movie.vote_average}}</h4>
+		    <p>Date de sortie: {{ movie.release_date|date:"EEEE"}}</p>
+		  </div>
+		</div>
+		</div>
+	
+</div>

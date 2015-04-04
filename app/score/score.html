@@ -1,0 +1,20 @@
+<h1>Scores</h1>
+<div class="row">
+
+	<table class="table table-striped table-condensed">
+	  <thead>
+	        <tr>
+	          <th>#</th>
+	          <th>Film</th>
+	          <th>Score</th>
+	        </tr>
+	   </thead>
+	   <tbody>
+	   		<tr ng-repeat="score in scoreCtlr.scores | orderBy:'points':true" class="score-row animated">
+	   			<td>{{$index+1}}</td>
+	   			<td>{{score.movie.title}}</td>
+	   			<td>{{score.points}}</td>
+	   		</tr>
+	   </tbody>
+</table>
+</div>
