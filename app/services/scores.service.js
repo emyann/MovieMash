@@ -30,22 +30,7 @@
                         points:1
                     });
                 }
-				/* scoresSyncArray.child(movie.id).once('value', function(snapshot) {
-			        var exists = (snapshot.val() !== null);
-			        if(exists){
-			        	var points = snapshot.val().points;
-						points++;
-						var movieRef=scoresSyncArray.child(movie.id);
-						movieRef.update({points:points});
-			        }else{
-			        	var movieRef=scoresSyncArray.child(movie.id);
-			        	movieRef.set({movie:movie,points:1});
-			        }
-			        
-			      });*/
-				
-				
-			}
+            }
 
 			function removePointToMovie(movie){
 				var points = localStorageService.get(movie.id) ? localStorageService.get(movie.id).points : 0;
