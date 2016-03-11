@@ -1,5 +1,5 @@
 
-<h2 class='text-center'>Quel film préférez-vous ? {{gameCtlr.step}} / 10</h2>
+<h2 class='text-center'>What is your favorite ? :) {{gameCtlr.step}} / 10</h2>
 <div class="col-xs-5  card-container animated">
 	<div class="card" ng-click='gameCtlr.addPointToMovie(gameCtlr.movie1)'>
 	  <div class="card-header">
@@ -7,14 +7,14 @@
 	  </div>
 	  <div class="card-content">
 	    <h3>{{gameCtlr.movie1.title}}</h3>
-	    <h4>Note: {{gameCtlr.movie1.vote_average}}</h4>
-	    <p>Date de sortie: {{ gameCtlr.movie1.release_date|date:"MM/dd/yyyy"}}</p>
+	    <h4>Vote: {{gameCtlr.movie1.vote_average}}</h4>
+	    <p>Release date: {{ gameCtlr.movie1.release_date|date:"MM/dd/yyyy"}}</p>
 	  </div>
 	</div>
 </div>
 
 <div class="col-xs-2 text-center">
-	<span class="label label-warning"> OU </span>
+	<span class="label label-warning"> OR </span>
 </div>
 
 <div class="col-xs-5 card-container animated">
@@ -24,8 +24,8 @@
 	  </div>
 	  <div class="card-content">
 	    <h3>{{gameCtlr.movie2.title}}</h3>
-	    <h4>Note: {{gameCtlr.movie2.vote_average}}</h4>
-	    <p>Date de sortie: {{ gameCtlr.movie2.release_date|date:"MM/dd/yyyy"}}</p>
+	    <h4>Vote: {{gameCtlr.movie2.vote_average}}</h4>
+	    <p>Release date: {{ gameCtlr.movie2.release_date|date:"MM/dd/yyyy"}}</p>
 	  </div>
 	</div>
 </div>

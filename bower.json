@@ -1,25 +1,19 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "MovieMash",
+  "description": "A movie game sample with AngularJs and Firebase",
+  "version": "0.0.2",
+  "homepage": "http://emyann.github.io/MovieMash/",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.3.x",
-    "angular-route": "1.3.x",
-    "angular-loader": "1.3.x",
-    "angular-mocks": "~1.3.x",
-    "html5-boilerplate": "~4.3.0",
-    "angular-ui-router": "~0.2.13",
-    "bootstrap": "~3.3.2",
-    "jquery": "~2.1.3",
-    "angular-animate": "~1.3.10",
-    "angular-local-storage": "~0.1.5",
-    "firebase": "~2.1.1",
-    "angularfire": "~0.9.1"
+    "angular": "~1.5.0",
+    "angular-animate": "~1.5.0",
+    "angular-local-storage": "~0.2.5",
+    "angular-ui-router": "~0.2.18",
+    "angularfire": "~1.1.4",
+    "bootstrap": "~3.3.6"
   },
   "devDependencies": {
-    "angular-ui-router": "~0.2.13"
+    "angular-mocks": "~1.5.0"
   }
 }
