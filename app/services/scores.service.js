@@ -24,8 +24,7 @@
                    movieObj.points ++;
                     scoresSyncArray.$save({movieObj});
                 }else{
-                    scoresSyncArray.$add({
-                        $id:movie.id,
+                    scoresSyncArray.$ref().child(movie.id).set({
                         movie:movie,
                         points:1
                     });
