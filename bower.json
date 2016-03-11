@@ -1,7 +1,7 @@
 {
   "name": "MovieMash",
   "description": "A movie game sample with AngularJs and Firebase",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "http://emyann.github.io/MovieMash/",
   "license": "MIT",
   "private": true,
